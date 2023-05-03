@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 //Componentes
 import { HeaderComponent } from './components/header/header.component';
@@ -9,7 +10,6 @@ import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 //Page
 import { HomeComponent } from './pages/home/home.component';
-import { FormsModule } from '@angular/forms';
 
 
 
